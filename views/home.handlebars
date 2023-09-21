@@ -1,0 +1,13 @@
+<div class="principal">
+<h1>Veja nossos principais produtos</h1>
+<br>
+
+    {{#each produtos}}
+    <ol>
+<li  class="nomeproduto">{{this.nome}}</li>
+    <a href='/produtos/{{this.id}}'>ver mais</a>
+    <br>
+    </ol>
+    <br>
+    {{/each}}
+</div>

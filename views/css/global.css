@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(8, 23, 3);
+}
+header{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    font-style: inherit;
+    background-color: rgb(29, 255, 21);
+    border-radius:15px;
+    color: white;
+}
+li{color: white;
+    list-style: none;
+}
+h1{color: white;}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(19, 42, 10);
+    border-radius:15px;
+    height: 90vh;
+}
+.principal{
+    text-align: center;
+    color: white; 
+}
+.principal h1{
+    width: 100%;
+}
+ol{ text-align: center;
+}
+.nomeproduto{
+    font-size: large;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    color: yellow;
+}
